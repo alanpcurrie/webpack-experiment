@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Webpack Experiment</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+        body {
+            background-color: #000;
+            color: #0ff;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        header,
+        main,
+        footer {
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            border-bottom: 2px solid #f00;
+            color: #0ff;
+            text-decoration: none;
+        }
+
+        h1,
+        h2 {
+            text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 2px solid #f00;
+            background-color: #000;
+        }
+
+        footer p {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <marquee
+            style="font-size: 2em; color: #0ff; text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00; margin: 20px 0; display: block;">
+            Webpack Experiment</marquee>
+        <section id="home">
+            <h1>Webpack Experiment</h1>
+
+        </section>
+        <section id="about">
+            <h2>About webpack experiment</h2>
+        </section>
+    </main>
+    <footer>
+        <p> Webpack Experiment</p>
+    </footer>
+</body>
+
+</html>
